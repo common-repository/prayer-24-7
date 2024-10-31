@@ -1,0 +1,262 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Prayer 24-7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-19 15:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.0; wp-5.6.1\n"
+"X-Domain: prayer247"
+
+#: prayer247.php:482
+msgid "All Sign-ups"
+msgstr ""
+
+#: prayer247.php:111
+msgid "And away you go!"
+msgstr ""
+
+#: prayer247.php:93
+msgid "April"
+msgstr ""
+
+#: prayer247.php:535
+msgid "Are you sure you want to commit to praying at the following times?"
+msgstr ""
+
+#: prayer247.php:97
+msgid "August"
+msgstr ""
+
+#: prayer247.php:544
+msgid "Cancel"
+msgstr ""
+
+#: prayer247.php:293
+msgid "Chosen timeslots"
+msgstr ""
+
+#: prayer247.php:281
+msgid "Church Name"
+msgstr ""
+
+#: prayer247.php:540
+msgid "Close"
+msgstr ""
+
+#: prayer247.php:543
+msgid "Confirm"
+msgstr ""
+
+#: prayer247.php:684
+msgid "Could Not Verify POST Values."
+msgstr ""
+
+#: prayer247.php:295
+msgid "Currently selected timeslots"
+msgstr ""
+
+#: prayer247.php:166 prayer247.php:225
+msgid "Date:"
+msgstr ""
+
+#. Author of the plugin
+msgid "David Thompson"
+msgstr ""
+
+#: prayer247.php:297
+msgid "Days that are expanded into hour timeslots"
+msgstr ""
+
+#: prayer247.php:101
+msgid "December"
+msgstr ""
+
+#: prayer247.php:542
+msgid "Email"
+msgstr ""
+
+#: prayer247.php:291
+msgid "Empty timeslots"
+msgstr ""
+
+#: prayer247.php:91
+msgid "February"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://gracechurchtogether.org.uk"
+msgstr ""
+
+#: prayer247.php:690
+msgid "Invalid security token sent."
+msgstr ""
+
+#: prayer247.php:90
+msgid "January"
+msgstr ""
+
+#: prayer247.php:96
+msgid "July"
+msgstr ""
+
+#: prayer247.php:95
+msgid "June"
+msgstr ""
+
+#: prayer247.php:733
+msgid "Many thanks!"
+msgstr ""
+
+#: prayer247.php:92
+msgid "March"
+msgstr ""
+
+#: prayer247.php:94
+msgid "May"
+msgstr ""
+
+#: prayer247.php:179 prayer247.php:238
+msgid "Month:"
+msgstr ""
+
+#: prayer247.php:541
+msgid "Name"
+msgstr ""
+
+#: prayer247.php:100
+msgid "November"
+msgstr ""
+
+#: prayer247.php:99
+msgid "October"
+msgstr ""
+
+#. Name of the plugin
+msgid "Prayer 24-7"
+msgstr ""
+
+#: prayer247.php:299
+msgid "Restore defaults"
+msgstr ""
+
+#: prayer247.php:305
+msgid "Save"
+msgstr ""
+
+#: prayer247.php:670
+msgid "Select"
+msgstr ""
+
+#: prayer247.php:222
+msgid "Select final time slot:"
+msgstr ""
+
+#: prayer247.php:163
+msgid "Select initial time slot:"
+msgstr ""
+
+#: prayer247.php:288
+msgid "Select the colours to use in your prayer time grid:"
+msgstr ""
+
+#: prayer247.php:109
+msgid ""
+"Select the start date and time and end date and time for the period of "
+"prayer (below)."
+msgstr ""
+
+#: prayer247.php:283
+msgid "Sender Email"
+msgstr ""
+
+#: prayer247.php:98
+msgid "September"
+msgstr ""
+
+#: prayer247.php:78
+msgid "Settings"
+msgstr ""
+
+#: prayer247.php:727
+msgid ""
+"Thank you for agreeing to commit to pray in the following hour time slot(s):"
+msgstr ""
+
+#: prayer247.php:536
+msgid "Thank you!"
+msgstr ""
+
+#: prayer247.php:110
+msgid "Then add the following shortcode to a page on the website:"
+msgstr ""
+
+#: prayer247.php:319
+msgid ""
+"There was a problem with some colours, but other settings have been saved."
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugin provides a sign-up system for a period of 24/7 prayer."
+msgstr ""
+
+#: prayer247.php:205 prayer247.php:264
+msgid "Time:"
+msgstr ""
+
+#: prayer247.php:867
+msgid "to"
+msgstr ""
+
+#: prayer247.php:697
+msgid "Unallowed mode."
+msgstr ""
+
+#: prayer247.php:322
+msgid "Unknown message code!"
+msgstr ""
+
+#: prayer247.php:539
+msgid "We have sent you an email to confirm."
+msgstr ""
+
+#: prayer247.php:108
+msgid ""
+"Welcome to the 24/7 prayer website plugin by Grace Church, Chichester UK."
+msgstr ""
+
+#: prayer247.php:192 prayer247.php:251
+msgid "Year:"
+msgstr ""
+
+#: prayer247.php:86
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: prayer247.php:316
+msgid "Your email address was invalid, but other settings have been saved."
+msgstr ""
+
+#: prayer247.php:313
+msgid "Your end date/time was invalid, but other settings have been saved."
+msgstr ""
+
+#: prayer247.php:538
+msgid "Your selected prayer slot has been registered."
+msgstr ""
+
+#: prayer247.php:537
+msgid "Your selected prayer slots have been registered."
+msgstr ""
+
+#: prayer247.php:310
+msgid "Your settings have been saved!"
+msgstr ""

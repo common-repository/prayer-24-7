@@ -1,0 +1,315 @@
+/* This is the style sheet for the Prayer 24-7 plugin */
+
+.p247container {
+    width: 100%;
+    display: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p247container::after {
+    clear: both;
+}
+
+.p24xgrid {
+    width: 100%;
+}
+
+.p24xweekgrid {
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.p24xgriditem {
+    width: 110px;
+    margin: 15px;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.p24xtimegrid {
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    display: flex;
+    width: 75%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    background-color: lemonchiffon;
+    border: 2px solid grey;
+    border-radius: 12px;
+}
+
+.p24xtimeitem {
+    width: 110px;
+    margin: 15px;
+    text-align: center;
+    border: 2px solid lightgrey;
+    border-radius: 4px;
+    padding: 10px;    
+}
+
+@media only screen and (max-width: 600px) {
+    .p24xgriditem {
+        width: 100px;
+        margin: 5px;
+        padding: 7px;
+        font-size: 80%;
+    }
+    
+    .p24xtimegrid {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    
+    .p24xtimeitem {
+        width: 100px;
+        margin: 5px;
+        padding: 7px;
+        font-size: 80%;
+    }
+}
+
+.prayerslotsgrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    border: 2px solid grey;
+    background-color: aliceblue;
+    grid-gap: 7px;
+    padding: 7px 7px 0 7px;
+    margin: 50px 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .prayerslotsgrid {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+.prayerslotsgrid::before {
+    content: none;
+}
+
+.prayerslotsitem {
+    background-color: palegreen;
+    border: 1px solid grey;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+}
+
+.prayerslotsitem p {
+}
+
+.smiley {
+    font-size: 30px;
+}
+
+
+.p247summary {
+    display: none;
+    text-align: center;
+    width: 50%;
+    border: 2px solid green;
+    border-radius: 8px;
+    background-color: lightgrey;
+    margin: auto;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+@media only screen and (max-width: 600px) {
+    .p247summary {
+        width: 95%;
+    }
+}
+
+.p247textfields {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.p247textfields label {
+    display: inline-block;
+    width: 50px;
+}
+
+.p247textfields input {
+    display: inline !important;
+    margin-bottom: 0px !important;
+}
+
+.p247textfields :last-child {
+    margin-bottom: 30px;
+}
+
+.p247formitem {
+    clear: both;
+    margin-bottom: 15px;
+}
+
+#p247formid {
+    margin: 1.15em 0;
+}
+
+#p247name {
+    width: calc(100% - 65px);
+    margin-left: 10px;  
+}
+
+#p247email {
+    width: calc(100% - 65px);
+    margin-left: 10px; 
+}
+
+.p247timeslist {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.p247formbtns {
+    display: block;
+    margin: auto;
+    width: 220px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+.p247button {
+    border: darkgrey 1px solid;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 16px;
+    color: white;
+    padding: 5px;
+    margin: auto;
+    height: 30px;
+    width: 100px;
+    
+}
+.p247button.p247confirm {
+    background-color: #1E9C19;
+    float: left;
+}
+.p247button.p247cancel {
+    background-color: #7F7F7F;
+    float: right;
+}
+
+.p247button.p247confirm:hover {
+    background-color: #0E8C09;    
+}
+.p247button.p247cancel:hover {
+    background-color: #6F6F6F;
+}
+
+.p247button.p247selectbtn {
+    display: block;
+    background-color: #1E9C19;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.p247button.p247selectbtn:hover {
+    background-color: #0E8C09;        
+}
+.p247button.p247selectbtn:disabled {
+    background-color: #BFBFBF;
+    border-color: #9F9F9F;
+    cursor: default;
+}
+
+/*
+#p247buttonsubmitid {
+    float: left;
+    height: 32px;
+    width: 100px;
+    font-size: 14px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+#p247buttoncancelid {
+    float: right;
+    height: 32px;
+    width: 100px;
+    font-size: 14px;
+    margin-left: 10px;    
+    text-align: center;
+}
+*/
+
+.p247thankyou {
+    text-align: center;
+    color: red;
+    padding: 20px 55px;
+}
+
+#greentxtspan {
+    background-color: palegreen;
+    border: 1px solid green;
+}
+
+#orangetxtspan {
+    background-color: orange;
+    border: 1px solid green;
+}
+
+.underway {
+    border: solid 3px #257cd3;
+    background-color: #dddddd;
+    width: 80%;
+    margin: auto;
+}
+.underway p {
+    max-width: min(800px, 96%);
+}
+.underway blockquote {
+    max-width: min(700px, 90%);
+    background-color: #c8d6e4;
+    border-left: solid 5px #81aad3;
+    margin: auto;
+    padding: 25px 25px 1px 25px;
+}
+
+.prayeritemscontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 85%;
+    margin: 0px auto 30px;
+}
+
+.prayeritem {
+    background-color: #257cd3;
+    color: white;
+    margin: 10px;
+    min-width: 50px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    border: solid 2px #81aad3;
+    border-radius: 25px;
+    padding: 10px 25px;
+    margin: 13px;
+}
+

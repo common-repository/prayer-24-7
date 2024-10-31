@@ -1,0 +1,27 @@
+/* This is the style sheet for the Prayer 24-7 plugin admin page */
+
+#settingssavebtn {
+    width:100px; 
+    height:30px; 
+    background-color:#0073aa; 
+    color:white; 
+    border:none; 
+    border-radius:5px;
+}
+
+#settingssavebtn:hover {
+    background-color:#0083ba;     
+}
+
+#p247restorecolorsbtnid {
+    display: inline-block;
+    height: 30px;
+    margin-left: 300px;
+    border-radius:5px;
+    border: 2px solid #bbbbbb;
+    background-color: #dddddd;
+}
+
+#p247restorecolorsbtnid:hover {
+    background-color: #cccccc;
+}
